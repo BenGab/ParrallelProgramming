@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoThreads", "TwoThreads\Tw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3ThreadState", "Lab3ThreadState\Lab3ThreadState.csproj", "{D9AF49D8-5A41-4B93-A41D-EF3F244CAC2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4Task", "Lab4Task\Lab4Task.csproj", "{07447664-8D5C-4A74-980B-D444D19FAFD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D9AF49D8-5A41-4B93-A41D-EF3F244CAC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9AF49D8-5A41-4B93-A41D-EF3F244CAC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9AF49D8-5A41-4B93-A41D-EF3F244CAC2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07447664-8D5C-4A74-980B-D444D19FAFD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07447664-8D5C-4A74-980B-D444D19FAFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07447664-8D5C-4A74-980B-D444D19FAFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07447664-8D5C-4A74-980B-D444D19FAFD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
