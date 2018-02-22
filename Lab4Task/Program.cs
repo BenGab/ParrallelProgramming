@@ -46,6 +46,7 @@ namespace Lab4Task
                     Console.WriteLine($"Thread state: {Thread.CurrentThread.ThreadState}");
                     Thread.ResetAbort();
                     Console.WriteLine($"Thread state: {Thread.CurrentThread.ThreadState}");
+                    Thread.Sleep(200);
                 }
             }
             catch(ThreadAbortException)
