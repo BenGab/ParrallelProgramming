@@ -22,7 +22,7 @@ namespace TwoThreads
         {
             while (true)
             {
-                Console.WriteLine("*********");
+                Console.Write("*");
                 Thread.Sleep(300);
             }
         }
@@ -31,7 +31,7 @@ namespace TwoThreads
         {
             while (true)
             {
-                Console.WriteLine("sdjkkdlsfjlék");
+                Console.Write("s");
                 Thread.Sleep(300);
             }
         }
