@@ -11,19 +11,20 @@ namespace WrongExceptionHandling
     {
         static void Main(string[] args)
         {
-            try
-            {
-                new Thread(Go).Start();
-            }
-            catch(Exception)
-            {
-                Console.WriteLine("Exception !!");
-            }
+
+            new Thread(Go).Start();
         }
 
         static void Go()
         {
-            throw null;
+            try
+            {
+                throw null;
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Exception !!");
+            }
         }
     }
 }
