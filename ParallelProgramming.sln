@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WrongExceptionHandling", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPingPong", "ThreadPingPong\ThreadPingPong.csproj", "{5626F628-6754-4FE4-866D-F2AFF888A709}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculation", "Calculation\Calculation.csproj", "{45F0EC65-6705-4D15-A09A-020260EEE058}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{5626F628-6754-4FE4-866D-F2AFF888A709}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5626F628-6754-4FE4-866D-F2AFF888A709}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5626F628-6754-4FE4-866D-F2AFF888A709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F0EC65-6705-4D15-A09A-020260EEE058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F0EC65-6705-4D15-A09A-020260EEE058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F0EC65-6705-4D15-A09A-020260EEE058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F0EC65-6705-4D15-A09A-020260EEE058}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
