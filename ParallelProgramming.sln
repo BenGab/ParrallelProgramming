@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPingPong", "ThreadPin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculation", "Calculation\Calculation.csproj", "{45F0EC65-6705-4D15-A09A-020260EEE058}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProducerConsumer", "ProducerConsumer\ProducerConsumer.csproj", "{36BAB63B-CD4B-4582-A67A-5A08E86ACFAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{45F0EC65-6705-4D15-A09A-020260EEE058}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45F0EC65-6705-4D15-A09A-020260EEE058}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45F0EC65-6705-4D15-A09A-020260EEE058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36BAB63B-CD4B-4582-A67A-5A08E86ACFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36BAB63B-CD4B-4582-A67A-5A08E86ACFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36BAB63B-CD4B-4582-A67A-5A08E86ACFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36BAB63B-CD4B-4582-A67A-5A08E86ACFAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
