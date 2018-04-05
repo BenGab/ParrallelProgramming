@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace TaskBasedPrimeTest
@@ -11,14 +12,16 @@ namespace TaskBasedPrimeTest
             Stopwatch sw = new Stopwatch();
             sw.Start();
 
-            Task<int> t = new Task<int>(() => PrimeSearch(1, 10000000));
-            t.ContinueWith(task =>
+            Task<int> t1 = new Task<int>(() => PrimeSearch(1, 5000000));
+            Task<int> t2 = new Task<int>(() => PrimeSearch(5000001, 10000000));
+            Task.WhenAll(t1, t2).ContinueWith(tasks =>
             {
                 sw.Stop();
-                Console.WriteLine(task.Result);
+                Console.WriteLine(tasks.Result.Sum());
                 Console.WriteLine(sw.Elapsed);
             });
-            t.Start();
+            t1.Start();
+            t2.Start();
 
             Console.WriteLine("END");
             Console.ReadLine();
