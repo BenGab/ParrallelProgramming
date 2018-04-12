@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitWpf", "AsyncAwait
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynAwaitConsoleDemo", "AsynAwaitConsoleDemo\AsynAwaitConsoleDemo.csproj", "{5C19C862-2DE3-42CE-8197-F4C2B65E962B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiediaArticleAnalyzer", "WikiediaArticleAnalyzer\WikiediaArticleAnalyzer.csproj", "{77155BEC-222A-4FF2-B03B-AF73BBBF6BEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{5C19C862-2DE3-42CE-8197-F4C2B65E962B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C19C862-2DE3-42CE-8197-F4C2B65E962B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C19C862-2DE3-42CE-8197-F4C2B65E962B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77155BEC-222A-4FF2-B03B-AF73BBBF6BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77155BEC-222A-4FF2-B03B-AF73BBBF6BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77155BEC-222A-4FF2-B03B-AF73BBBF6BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77155BEC-222A-4FF2-B03B-AF73BBBF6BEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
